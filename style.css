@@ -87,7 +87,16 @@ li {
 }
 a{
     color: black;
+    font-family: 'Inter', sans-serif;
 }
+.pie .footer{
+    background: white;
+    padding: 1px;
+    border-radius: 12px;
+    margin: 15px;
+}
+
+
 @media (max-width: 480px) {
     .container{
         padding: 5px;
