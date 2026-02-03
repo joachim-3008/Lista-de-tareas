@@ -8,6 +8,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    background: linear-gradient(180deg, #0f172a 0%, #3b82f6 100%);
 }
 
 .container {
@@ -17,6 +18,7 @@ body {
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
 }
 
 h1 { margin: 0; color: #333; }
@@ -78,8 +80,17 @@ li {
     cursor: pointer;
     font-size: 12px;
 }
-
-.titulo{
-    display: flex;
-    flex-direction: initial;
+.container header h1{
+  font-family: "Playwrite IN Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
+a{
+    color: black;
+}
+@media (max-width: 480px) {
+    .container{
+        padding: 5px;
+    }
+}
+
